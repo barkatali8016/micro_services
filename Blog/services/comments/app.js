@@ -7,6 +7,7 @@ const axios = require("axios").default;
 const cors = require("cors");
 
 // parse request body in JSON
+
 app.use(express.json());
 app.use(cors());
 const commentsByPostId = {};
